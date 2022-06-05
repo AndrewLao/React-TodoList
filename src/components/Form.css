@@ -1,0 +1,11 @@
+.textdiv {
+    text-align: center;
+} 
+.textfield {
+    color:white;
+    font-size: large;
+}
+
+.textfield__label {
+    color: white !important;
+}
