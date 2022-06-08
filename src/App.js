@@ -8,7 +8,7 @@ function App() {
   const [inputText, setInputText] = useState("");
   const [todo, setTodo] = useState(JSON.parse(localStorage.getItem('todo')) ?? []);
   const [today, setDate] = useState(new Date());
-  const [id, setID] = useState(0);
+  const [id, setID] = useState(todo[todo.length - 1]?.id + 1 || 0);
 
   useEffect(() => {
     const timer = setInterval(() => {
