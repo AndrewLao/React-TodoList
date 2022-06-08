@@ -42,7 +42,9 @@ The executable file and installer can be found in src-tauri->target->release
 Optionally there is a msi installer that is built when the bundle is created under src-tauri->target->release->bundle
 
 # Screenshots
-
+Web Sample:
 ![Web Example](https://github.com/AndrewLao/todolist/blob/main/webexample.jpg)
+
+Desktop Sample:
 ![Desktop Example](https://github.com/AndrewLao/todolist/blob/main/desktopexample.jpg)
 
