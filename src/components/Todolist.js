@@ -1,14 +1,20 @@
 import React from 'react';
-import { Drawer } from '@mui/material';
-import { Typography } from '@mui/material';
 import { List } from '@mui/material';
-import { ListItem } from '@mui/material';
-import { ListItemIcon } from '@mui/material';
-import { ListItemText } from '@mui/material';
+import Todo from './Todo';
+import './Todolist.css'
 
+const Todolist = (props) => {
 
-const Todolist = () => {
-
+    return (
+        <div className="todoList">
+            <List
+            sx={{ width: '50%'}}>
+                {props.todo.map(todo => (
+                    <Todo text={todo.text} key={todo.id} setTodo={props.setTodo} todos={props.todo} todo={todo}/>
+                ))}
+            </List>
+        </div>
+    );
 };
 
 

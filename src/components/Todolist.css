@@ -1,0 +1,18 @@
+.todoList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.trash-btn {
+    padding: 0.5rem;
+  font-size: 1.7rem;
+  border: none;
+  background-color: #371B58;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+

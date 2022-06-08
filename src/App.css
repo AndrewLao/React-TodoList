@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #4C3575;
+  background-color: #371B58;
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -22,7 +22,7 @@ button {
   padding: 0.5rem;
   font-size: 1.7rem;
   border: none;
-  background-color: #4C3575;
+  background-color: #371B58;
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;

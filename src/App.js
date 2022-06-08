@@ -15,8 +15,10 @@ function getTime() {
 }
 
 function App() {
-
+  const [inputText, setInputText] = useState("");
+  const [todo, setTodo] = useState([]);
   const [today, setDate] = useState(new Date());
+  const [id, setID] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -32,8 +34,8 @@ function App() {
       <header>  
         <h1>{getDate()} <br/>{getTime()}</h1>
       </header>
-      <Form />
-      <Todolist/>
+      <Form inputText={ inputText } setInputText={setInputText} setTodo={setTodo} todo={todo} id={id} setId={ setID }/>
+      <Todolist todo={ todo } setTodo={setTodo}/>
     </div>
   );
 }
