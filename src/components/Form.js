@@ -22,8 +22,8 @@ const Form = (props) => {
                 value={ props.inputText }
                 onChange={ inputTextHandler } 
                 sx={{
-                    input: { color: 'white' }, width: '30%', '& .MuiInput-underline:before': { borderBottomColor: '#4C3575' },
-                    '& .MuiInput-underline:after': { borderBottomColor: '#7858A6' }
+                    input: { color: 'white' }, width: '30%', '& .MuiInput-underline:before': { borderBottomColor: '#7858A6' },
+                    '& .MuiInput-underline:after': { borderBottomColor: 'black' }
                 }}
                 id="standard-basic" label="Enter Item Here" variant="standard"
                 className='textfield'

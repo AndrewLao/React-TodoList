@@ -1,4 +1,4 @@
-import { Checkbox, ListItem, ListItemText, ListItemIcon } from '@mui/material';
+import { Checkbox, ListItem, ListItemText} from '@mui/material';
 import './Todolist.css'
 const Todo = (props) => {
 
@@ -15,7 +15,8 @@ const Todo = (props) => {
                         color:'white',
                     },
                 }}
-                edge='start' size='large'></Checkbox>
+                edge='start' size='large'
+            />
             <ListItemText primary={props.text} primaryTypographyProps={{ fontSize: '1.1rem', style: { wordWrap: 'break-word' }}}></ListItemText>
             <button className="trash-btn" onClick={deleteHandler}>
                 <i className="fas fa-trash"></i>
