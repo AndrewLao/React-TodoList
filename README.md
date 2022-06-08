@@ -43,3 +43,6 @@ Optionally there is a msi installer that is built when the bundle is created und
 
 # Screenshots
 
+![Web Example](https://github.com/AndrewLao/todolist/blob/main/webexample.jpg)
+![Desktop Example](https://github.com/AndrewLao/todolist/blob/main/desktopexample.jpg)
+
