@@ -2,7 +2,7 @@
 
 Extremely simple React implementation of a todo list application
 
-Saves data in client's browser data
+Saves data in browser's localstorage
 
 # Running on Localhost
 `npm install`
