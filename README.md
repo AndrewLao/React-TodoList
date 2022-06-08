@@ -1,6 +1,6 @@
 # todolist
 
-React JS implementation of a todo list application
+Extremely simple React JS implementation of a todo list application
 
 Saves data in client's browser data
 
