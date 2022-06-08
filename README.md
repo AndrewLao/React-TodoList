@@ -5,7 +5,8 @@ Extremely simple React JS implementation of a todo list application
 Saves data in client's browser data
 
 # To run on localhost
-`npm i && npm start`
+`npm install`
+`npm start`
 
 # Dependencies for Running on localhost 
 
