@@ -6,6 +6,7 @@ Saves data in client's browser data
 
 # To run on localhost
 `npm install`
+
 `npm start`
 
 # Dependencies for Running on localhost 
