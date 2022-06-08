@@ -1,6 +1,10 @@
 # VSCode
 .vscode/*
 
+# Tauri
+src-tauri/target/*
+src-tauri/WixTools/*
+
 # Logs
 logs
 *.log
