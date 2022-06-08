@@ -9,7 +9,7 @@ Saves data in client's browser data for web
 
 `npm start`
 
-# Dependencies
+# Dependencies for Web
 
 - node 16.14 or later
 - npm version 8.3.1 or later
@@ -17,4 +17,22 @@ Saves data in client's browser data for web
 
 # Windows
 
-Uses Tauri for compiling 
+Uses Tauri (Rust and its dependencies are required for this)
+
+Install Rust [here](https://www.rust-lang.org/tools/install)
+
+To run on desktop, follow the `getting started` portion of the guide [here](https://tauri.studio/v1/guides/)
+
+Once everything is set up run in order
+`npm install`
+
+`npm run tauri init`
+
+`npm run build`
+
+`npm run bundle`
+
+The executable file and installer can be found in src-tauri->target->release
+
+# Screenshots
+
